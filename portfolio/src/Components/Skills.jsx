@@ -84,8 +84,8 @@ const Skills = () => {
       </AccordionButton>
     </h2>
     <AccordionPanel pb={4}>
-    I am experienced  with version control systems Git and GitHub are commonly used by front-end developers 
-    to collaborate with other developers and manage code versions. 
+    I am experienced with version control systems. Git and GitHub are commonly used by web developers to 
+    collaborate with other developers and manage code versions.
     </AccordionPanel>
   </AccordionItem>
 
