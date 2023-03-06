@@ -144,7 +144,7 @@ const Skills = () => {
       </AccordionButton>
     </h2>
     <AccordionPanel pb={4}>
-    I have expertise in utilizing various libraries to create excellent web applications.  
+    I have expertise in utilizing various libraries to create excellent react web applications.  
     </AccordionPanel>
   </AccordionItem>
 

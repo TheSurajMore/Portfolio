@@ -1,49 +1,41 @@
+import React from "react";
 import {
-    Box,
-    Center,
-    Divider,
-    Heading,
-    Stack,
-    Text,
-  } from '@chakra-ui/react';
-  
+  Table,
+  Thead,
+  Tfoot,
+  Tr,
+  Th,
+  TableContainer,
+  Center,
+  Box,
+} from '@chakra-ui/react'
 
-  const PackageTier = ({
-    title,
-    typePlan,
-  }: PackageTierProps) => {
+const Education = () => {
+  return(<>
+  <Center>
+  <Box>
+  <TableContainer>
+  <Table size='lg'>
+    <Thead>
+      <Tr>
+        <Th>2022-2023</Th>
+        <Th>Front-end web development</Th>
+      </Tr>
+    </Thead>
+    <Tfoot>
+      <Tr>
+        <Th>2021</Th>
+        <Th>Bcom Graduate (CGPA : 7.24)</Th>
+      </Tr>
+    </Tfoot>
+  </Table>
+</TableContainer>
+</Box>
+</Center>
+  </>)
+}
 
-  
-    return (
-      <Stack
-        p={3}
-        py={3}
-        justifyContent={{
-          base: 'flex-start',
-          md: 'space-around',
-        }}
-        direction={{
-          base: 'column',
-          md: 'row',
-        }}
-        alignItems={{ md: 'center' }}>
-        <Heading size={'md'}>{title}</Heading>
-        <Heading size={'xl'}>{typePlan}</Heading>
-      </Stack>
-    );
-  };
-  const Education = () => {
-    return (
-      <Center >
-      <Box py={3} px={250} min={'100vh'} width={'80%'} borderWidth={'5px'} >
-        <Stack spacing={4} width={'100%'} direction={'column'}>
-          <PackageTier title={'2022-2023'} typePlan="Front-end web development"/>
-          <Divider borderWidth={'3px'} />
-          <PackageTier title={'2021'+ '\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0\xa0'}  typePlan="Bcom Graduate (CGPA : 7.24)"/>
-        </Stack>
-      </Box>
-      </Center>
-    );
-  };
-  
-  export default Education;
+export default Education; 
+
+  // Front-end web development
+  // Bcom Graduate (CGPA : 7.24)

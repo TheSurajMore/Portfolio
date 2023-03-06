@@ -4,7 +4,7 @@ import { Box, Button, Center, Heading } from "@chakra-ui/react";
 const Projects = () => {
   return(<>
   <Center>
-  <Box width={'40%'} mb={'2%'} >
+  <Box width={'70%'} mb={'2%'} >
     <Box borderWidth={'5px'} >
       <Heading>E-COMMERCE</Heading>
       <Box>⦿ React Web App</Box>
