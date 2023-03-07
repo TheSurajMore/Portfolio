@@ -13,7 +13,7 @@ const Experience = () => {
     <ListIcon as={CheckCircleIcon} color='green.500' />
     <ListItem>    I have participated in three group projects as well and have experience using version control systems like Git in both team and solo projects. I have experience in communicating and collaborating with teammates.   </ListItem>
     <ListIcon as={CheckCircleIcon} color='green.500' />
-    <ListItem>    After almost a year of learning, I made sure I am prepared for the job before looking for it. I adapted a developer's mindset to turn any possibility into reality, either with my existing knowledge or learning new abilities.    </ListItem>
+    <ListItem>    After almost a year of learning, I make sure I am prepared for the job before looking for it. I adapted a developer's mindset to turn any possibility into reality, either with my existing knowledge or learning new abilities.    </ListItem>
   </ListItem>
 </List>
 </Box>
