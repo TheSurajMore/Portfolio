@@ -13,7 +13,7 @@ import {
 const Education = () => {
   return(<>
   <Center>
-  <Box>
+  <Box ml={'2%'} mr={'2%'} >
   <TableContainer>
   <Table size='lg'>
     <Thead>
