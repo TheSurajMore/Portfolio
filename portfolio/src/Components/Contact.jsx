@@ -38,10 +38,8 @@ const Contact = () => {
       </Tr>
       <Tr>
         <Th><ImLocation2 size={'30px'} /></Th>
-        <Th>31/4, F, Ayodhya Nagar, N-7,
-            Cidco,<Text/> Aurangabad,
-            Maharashtra, India 
-            <Text/>431003
+        <Th>Pune Maharashtra.
+            <Text/>
             (Open to relocate <Text/> according
             to job requirements)</Th>
       </Tr>
