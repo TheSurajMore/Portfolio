@@ -2,32 +2,25 @@ import React from "react";
 import {
   Table,
   Thead,
-  Tfoot,
-  Tr,
-  Th,
   TableContainer,
   Center,
   Box,
+  Divider,
 } from '@chakra-ui/react'
 
 const Education = () => {
   return(<>
-  <Center>
-  <Box ml={'2%'} mr={'2%'} >
-  <TableContainer>
+  <Center ml={'2%'} mr={'2%'} >
+  <Box >
+  <TableContainer >
   <Table size='lg'>
-    <Thead>
-      <Tr>
-        <Th>2022-2023</Th>
-        <Th>Front-end web development</Th>
-      </Tr>
-    </Thead>
-    <Tfoot>
-      <Tr>
-        <Th>2021</Th>
-        <Th>Bcom Graduate (CGPA : 7.24)</Th>
-      </Tr>
-    </Tfoot>
+      <Thead>
+        2022-2023 => Front-end web development
+      </Thead>
+      <Divider/>
+      <Thead>
+        2021 => Bcom Graduate (CGPA : 7.24)
+      </Thead>
   </Table>
 </TableContainer>
 </Box>
