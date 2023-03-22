@@ -30,5 +30,3 @@ const Education = () => {
 
 export default Education; 
 
-  // Front-end web development
-  // Bcom Graduate (CGPA : 7.24)

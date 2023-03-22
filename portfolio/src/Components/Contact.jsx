@@ -53,5 +53,3 @@ const Contact = () => {
 
 export default Contact; 
 
-  // Front-end web development
-  // Bcom Graduate (CGPA : 7.24)
