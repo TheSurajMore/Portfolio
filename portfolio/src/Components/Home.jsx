@@ -20,7 +20,7 @@ export default function Home () {
         <Heading>SURAJ MORE</Heading>
         {/* <Heading color={useColorModeValue('gray.400', 'gray.400')}> */}
         <Heading color={'green'} >
-        Front-end web developer
+        MERN stack / Full stack web developer 
         </Heading>
       </Box>
       <Divider width={'20%'} borderWidth={'5px'} borderRadius={'50%'} />

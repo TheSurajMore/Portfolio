@@ -38,10 +38,7 @@ const Contact = () => {
       </Tr>
       <Tr>
         <Th><ImLocation2 size={'30px'} /></Th>
-        <Th>Pune Maharashtra.
-            <Text/>
-            (Open to relocate <Text/> according
-            to job requirements)</Th>
+        <Th>Pune, Maharashtra.</Th>
       </Tr>
     </Thead>
   </Table>

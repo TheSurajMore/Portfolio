@@ -11,7 +11,7 @@ const Menu = () => {
     <Button bg={'black'} onClick={()=>nav('/EDUCATION')} >EDUCATION</Button>
     <Button bg={'black'} onClick={()=>nav('/EXPERIENCE')} >EXPERIENCE</Button>
     <Button bg={'black'} onClick={()=>nav('/CONTACT')} >CONTACT</Button>
-    <Button bg={'black'} onClick={()=>nav('/MY_SELF')} >MY SELF</Button>
+    {/* <Button bg={'black'} onClick={()=>nav('/MY_SELF')} >MY SELF</Button> */}
   </Grid>
     </>)
 }
