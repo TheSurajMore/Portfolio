@@ -15,11 +15,13 @@ const Education = () => {
   <TableContainer >
   <Table size='lg'>
       <Thead>
-        2022-2023 => Front-end web development
+        2022 - March 2023 => MERN stack / Full stack web developer 
       </Thead>
+      <br></br>
       <Divider/>
+      <br></br>
       <Thead>
-        2021 => Bcom Graduate (CGPA : 7.24)
+        2021 => Bcom Graduate 
       </Thead>
   </Table>
 </TableContainer>
