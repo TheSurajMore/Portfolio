@@ -6,26 +6,16 @@ const Projects = () => {
   return(<>
   <Center>
   <Box width={'70%'} mb={'2%'} >
+  <Box borderWidth={'5px'} >
+      <Heading>Todo-CRUD, MERN Web App</Heading>
+      <a href="https://github.com/TheSurajMore/MERN-Todo-CRUD" target={'_blank'} rel='noreferrer' ><Button mb={'1%'} mt={'1%'} colorScheme='blue'>Open GitHub Link In New Tab <ExternalLinkIcon/> </Button></a>
+    </Box>
     <Box borderWidth={'5px'} >
-      <Heading>E-COMMERCE</Heading>
-      <Box>⦿ React Web App</Box>
-      <Box>⦿ Solo Project</Box>
-      <Box>⦿ Technologies used:- React, Context, JavaScript, CSS, HTML, Responsive UI, react-router-dom, Libraries. </Box>
+      <Heading>E-commerce, Frontend React Web App</Heading>
       <a href="https://surajecommerce.netlify.app/" target={'_blank'} rel='noreferrer' ><Button mb={'1%'} mt={'1%'} colorScheme='blue'>Open Live Project In New Tab <ExternalLinkIcon/> </Button></a>
     </Box>
-    <Box borderWidth={'5px'} mt={'1%'} >
-      <Heading>MY TODO</Heading>
-      <Box>⦿ React Web App</Box>
-      <Box>⦿ Solo Project</Box>
-      <Box>⦿ Technologies used:- React, Redux, JavaScript, CSS, HTML, Responsive UI, Libraries.  </Box>
-      <a href="https://surajtodo.netlify.app/" target={'_blank'} rel='noreferrer' ><Button mb={'1%'} mt={'1%'} colorScheme='blue'>Open Live Project In New Tab <ExternalLinkIcon/> </Button></a>
-    </Box>
-    <Box borderWidth={'5px'} mt={'1%'} >
-      <Heading>YOUTUBE CLONE</Heading>
-      <Box>⦿ React Web App</Box>
-      <Box>⦿ Solo Project</Box>
-      <Box>⦿ Technologies used:- React, JavaScript, CSS, HTML, Responsive UI, Libraries.  </Box>
-      <a href="https://clone-e822e.web.app/" target={'_blank'} rel='noreferrer' ><Button mb={'1%'} mt={'1%'} colorScheme='blue'>Open Live Project In New Tab <ExternalLinkIcon/> </Button></a>
+    <Box borderWidth={'5px'} >
+      <Box>⦿ Technologies used in above Projects are HTML, CSS, JavaScript, React, Node.js, Express.js, MongoDB, Mongoose, and some tools and libraries.  </Box>
     </Box>
   </Box>
   </Center>

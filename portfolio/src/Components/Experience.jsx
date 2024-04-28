@@ -8,13 +8,10 @@ const Experience = () => {
     <Box width={'70%'} borderWidth={'5px'} padding={'5%'} >
     <List spacing={3}>
   <ListItem>
-    <ListIcon as={CheckCircleIcon} color='green.500'/> 2022 - 2023 Training / Learning Experience
+    <ListIcon as={CheckCircleIcon} color='green.500'/> April 2023 - PRESENT => UpThink, Pune — Web Developer 
   </ListItem>
     <ListItem>
-        <Divider m={'1%'} />
-        <Text>1) Personal projects mentioned in projects.</Text>
-        <Text> 2) Personal group projects using git and GitHub. </Text> 
-         <Text> 3) I accomplished a lot of front-end web development tasks during my one year of learning to solidify my understanding.</Text>
+    <ListIcon as={CheckCircleIcon} color='green.500'/> 2022 - March 2023 => Web development learning with personal projects
   </ListItem>
 </List>
 </Box>

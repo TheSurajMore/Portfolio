@@ -51,68 +51,9 @@ import {
     return (
       <Container maxW={'5xl'} py={12} >
           <Stack spacing={4}>
-            <Heading>As a web developer, I am always ready to convert any possibility into reality. </Heading>
+            <Heading>The Complete Web Developer in 2023: Zero to Mastery</Heading>
+            <Heading color={'blue.500'} ><a target='_blank' href="https://www.udemy.com/certificate/UC-b7373586-5571-44d2-bc5c-6a9f553501b8/">Certificate Link</a></Heading>
             <Divider borderWidth={'5px'} borderRadius={'50%'} />
-            <Text color={'gray.500'} fontSize={'lg'}>
-            I have the following qualities and I believe that the following qualities will enable me to contribute to our organization and my own currier.
-            </Text>
-            <Stack
-              spacing={4}
-              divider={
-                <StackDivider
-                  borderColor={useColorModeValue('gray.100', 'gray.700')}
-                />
-              }>
-                <Center>
-                  <Box>
-              <Feature
-                icon={
-                  <Icon as={FcAlarmClock} color={'yellow.500'} w={5} h={5} />
-                }
-                iconBg={useColorModeValue('yellow.100', 'yellow.900')}
-                text={'Discipline'}
-              />
-              <Feature
-                icon={<Icon as={GiFlexibleLamp} color={'green.500'} w={5} h={5} />}
-                iconBg={useColorModeValue('green.100', 'green.900')}
-                text={'Consistency'}
-              />
-              <Feature
-                icon={
-                  <Icon as={IoLogoBitcoin} color={'purple.500'} w={5} h={5} />
-                }
-                iconBg={useColorModeValue('purple.100', 'purple.900')}
-                text={'Patience'}
-              />
-                            <Feature
-                icon={
-                  <Icon as={IoSearchSharp} color={'yellow.500'} w={5} h={5} />
-                }
-                iconBg={useColorModeValue('yellow.100', 'yellow.900')}
-                text={'Smart working'}
-              />
-              <Feature
-                icon={<Icon as={BsPersonWorkspace} color={'green.500'} w={5} h={5} />}
-                iconBg={useColorModeValue('green.100', 'green.900')}
-                text={'Hard Working'}
-              />
-              <Feature
-                icon={
-                  <Icon as={GiFlexibleStar} color={'purple.500'} w={5} h={5} />
-                }
-                iconBg={useColorModeValue('purple.100', 'purple.900')}
-                text={'Flexible'}
-              />
-                            <Feature
-                icon={
-                  <Icon as={IoAnalyticsSharp} color={'yellow.500'} w={5} h={5} />
-                }
-                iconBg={useColorModeValue('yellow.100', 'yellow.900')}
-                text={'Always developing and upgrading'}
-              />
-              </Box>
-              </Center>
-            </Stack>
           </Stack>
       </Container>
     );

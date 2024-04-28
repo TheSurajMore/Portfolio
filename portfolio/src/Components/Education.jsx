@@ -15,7 +15,7 @@ const Education = () => {
   <TableContainer >
   <Table size='lg'>
       <Thead>
-        2022 - March 2023 => MERN stack / Full stack web developer 
+        2022 - March 2023 => Web development learning with personal projects 
       </Thead>
       <br></br>
       <Divider/>
